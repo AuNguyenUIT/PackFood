@@ -1,0 +1,19 @@
+{
+    "packfood.store": {
+        "siteId": "husIXPEsmYnxtEcBGLhaUcmUFoORprnD",
+        "siteSecret": "bJtRix44RhE3dPR3HvG7QLIlMFI1ifJk6U6axkwd0hTKAIof12d1kvSOXE3EevGg",
+        "blogId": 1,
+        "compression": false,
+        "webhookToken": "694de7811bb07362f17cd3723005a92a",
+        "home_url": "https:\/\/packfood.store",
+        "admin_url": "https:\/\/packfood.store\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.5.7"
+    }
+}

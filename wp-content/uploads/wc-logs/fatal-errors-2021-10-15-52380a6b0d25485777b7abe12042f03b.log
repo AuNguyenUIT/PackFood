@@ -1,0 +1,285 @@
+2021-10-15T15:08:32+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/functions.php:5158
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/functions.php(5158): abs(1358)
+#1 /home/dev/au-packfood/wp-includes/meta.php(540): absint(1358)
+#2 /home/dev/au-packfood/wp-includes/meta.php(509): get_metadata_raw('post', 1358, '_wp_attached_fi...', true)
+#3 /home/dev/au-packfood/wp-includes/post.php(2303): get_metadata('post', 1358, '_wp_attached_fi...', true)
+#4 /home/dev/au-packfood/wp-includes/post.php(555): get_post_meta(1358, '_wp_attached_fi...', true)
+#5 /home/dev/au-packfood/wp-includes/post.php(6583): get_attached_file(1358)
+#6 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', Object(WP_Post))
+#7 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/src/helpers/image-helper.php(60): wp_attachment_is_image(1358)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/src/helpers/open-graph/image-helper.php(96): Yoast\WP\SEO\Helpers\Image_Hel in /home/dev/au-packfood/wp-includes/functions.php on line 5158
+
+2021-10-15T15:08:38+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/functions.php:5158
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/functions.php(5158): abs(1381)
+#1 /home/dev/au-packfood/wp-includes/meta.php(540): absint(1381)
+#2 /home/dev/au-packfood/wp-includes/meta.php(509): get_metadata_raw('post', 1381, '_wp_attached_fi...', true)
+#3 /home/dev/au-packfood/wp-includes/post.php(2303): get_metadata('post', 1381, '_wp_attached_fi...', true)
+#4 /home/dev/au-packfood/wp-includes/post.php(555): get_post_meta(1381, '_wp_attached_fi...', true)
+#5 /home/dev/au-packfood/wp-includes/post.php(6583): get_attached_file(1381)
+#6 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', Object(WP_Post))
+#7 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#8 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#9 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'f in /home/dev/au-packfood/wp-includes/functions.php on line 5158
+
+2021-10-15T15:12:03+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:12:16+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:12:53+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:13:32+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:13:54+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:14:23+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:15:51+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:16:13+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:16:55+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1358, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1358, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1358)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1358)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1358)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1358)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1358, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1358, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1358, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:16:55+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:16:59+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:17:02+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:17:13+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:18:21+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:18:27+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:18:44+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:18:49+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:19:33+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:22:36+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+
+2021-10-15T15:24:26+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '1024' reached, aborting! in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php:281
+Stack trace:
+#0 /home/dev/au-packfood/wp-includes/cache.php(125): WP_Object_Cache->get(1381, 'posts', false, NULL)
+#1 /home/dev/au-packfood/wp-includes/class-wp-post.php(239): wp_cache_get(1381, 'posts')
+#2 /home/dev/au-packfood/wp-includes/post.php(838): WP_Post::get_instance(1381)
+#3 /home/dev/au-packfood/wp-includes/post.php(6577): get_post(1381)
+#4 /home/dev/au-packfood/wp-includes/post.php(6636): wp_attachment_is('image', 1381)
+#5 /home/dev/au-packfood/wp-includes/media.php(192): wp_attachment_is_image(1381)
+#6 /home/dev/au-packfood/wp-includes/media.php(953): image_downsize(1381, 'full')
+#7 /home/dev/au-packfood/wp-includes/media.php(1131): wp_get_attachment_image_src(1381, 'full', false)
+#8 /home/dev/au-packfood/wp-content/plugins/wordpress-seo/inc/class-wpseo-image-utils.php(213): wp_get_attachment_image_url(1381, 'full')
+#9 /home/dev/au-packfood/wp-content/plu in /home/dev/au-packfood/wp-includes/class-wp-object-cache.php on line 281
+

@@ -1,0 +1,44 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+.packfood-quickbuy button.single_add_to_cart_button.loading:after {
+	display: none;
+}
+.packfood-quickbuy button.single_add_to_cart_button.button.alt.loading {
+	color: #fff;
+	pointer-events: none !important;
+}
+.packfood-quickbuy button.buy_now_button {
+	position: relative;
+	color: rgba(255,255,255,0.05);
+}
+.packfood-quickbuy button.buy_now_button:after {
+	animation: spin 500ms infinite linear;
+	border: 2px solid #fff;
+	border-radius: 32px;
+	border-right-color: transparent !important;
+	border-top-color: transparent !important;
+	content: "";
+	display: block;
+	height: 16px;
+	top: 50%;
+	margin-top: -8px;
+	left: 50%;
+	margin-left: -8px;
+	position: absolute;
+	width: 16px;
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
